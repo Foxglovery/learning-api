@@ -1,0 +1,354 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Archibald Featherstone",
+            "email": "Archibald.Featherstone@example.com",
+            "cohort": 67
+        },
+        {
+            "id": 2,
+            "name": "Lysandra Starglow",
+            "email": "Lysandra.Starglow@example.com",
+            "cohort": 63
+        },
+        {
+            "id": 3,
+            "name": "Reginald Silverstone",
+            "email": "Reginald.Silverstone@example.com",
+            "cohort": 69
+        },
+        {
+            "id": 4,
+            "name": "Eleanora Moonshadow",
+            "email": "Eleanora.Moonshadow@example.com",
+            "cohort": 60
+        },
+        {
+            "id": 5,
+            "name": "Fitzwilliam Lightfoot",
+            "email": "Fitzwilliam.Lightfoot@example.com",
+            "cohort": 65
+        },
+        {
+            "id": 6,
+            "name": "Cassandra Nightbreeze",
+            "email": "Cassandra.Nightbreeze@example.com",
+            "cohort": 66
+        },
+        {
+            "id": 7,
+            "name": "Beauregard Skyfall",
+            "email": "Beauregard.Skyfall@example.com",
+            "cohort": 68
+        },
+        {
+            "id": 8,
+            "name": "Octavia Windwhisper",
+            "email": "Octavia.Windwhisper@example.com",
+            "cohort": 64
+        },
+        {
+            "id": 9,
+            "name": "Thaddeus Goldenleaf",
+            "email": "Thaddeus.Goldenleaf@example.com",
+            "cohort": 70
+        },
+        {
+            "id": 10,
+            "name": "Cornelius Stormrider",
+            "email": "Cornelius.Stormrider@example.com",
+            "cohort": 61
+        }
+    ],
+    "topics": [
+        {
+            "id": 1,
+            "topicName": "Random Woods"
+        },
+        {
+            "id": 2,
+            "topicName": "Struggle-Bus"
+        },
+        {
+            "id": 3,
+            "topicName": "Food I Guess"
+        },
+        {
+            "id": 4,
+            "topicName": "CSS-Hate"
+        },
+        {
+            "id": 5,
+            "topicName": "Wins"
+        },
+        {
+            "id": 6,
+            "topicName": "Cautionary Tales"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "userId": 3,
+            "title": "The Perks of Setting Yourself On Fire",
+            "content": "Books are a uniquely portable magic.",
+            "created_at": "Fri May 26 2023 23:55:19 GMT-0500 (Central Daylight Time)",
+            "topicId": 1
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "title": "This is so nasty. You have to try it.",
+            "content": "In conclusion, that's why I think pineapples belong on pizza.",
+            "created_at": "Wed Aug 16 2023 09:08:17 GMT-0500 (Central Daylight Time)",
+            "topicId": 3
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "title": "Time To Knife-Dance In Nature",
+            "content": "Nature is amazing. Let me tell you why.",
+            "created_at": "Sat Oct 08 2022 13:07:41 GMT-0500 (Central Daylight Time)",
+            "topicId": 1
+        },
+        {
+            "id": 4,
+            "userId": 3,
+            "title": "I Was A Teenage Assassin",
+            "content": "Books are a uniquely portable magic.",
+            "created_at": "Mon Nov 14 2022 14:00:37 GMT-0600 (Central Standard Time)",
+            "topicId": 6
+        },
+        {
+            "id": 5,
+            "userId": 4,
+            "title": "What Was Once Inchoate",
+            "content": "It was a dark and stormy night...",
+            "created_at": "Tue Aug 22 2023 06:20:06 GMT-0500 (Central Daylight Time)",
+            "topicId": 6
+        },
+        {
+            "id": 6,
+            "userId": 6,
+            "title": "Sometimes I Just Eat Cool-Whip",
+            "content": "Working remotely has its pros and cons. Let's discuss.",
+            "created_at": "Wed Feb 22 2023 05:23:51 GMT-0600 (Central Standard Time)",
+            "topicId": 3
+        },
+        {
+            "id": 7,
+            "userId": 1,
+            "title": "A Day in the Life",
+            "content": "We can only ever slink the day away.",
+            "created_at": "Sun Nov 27 2022 01:59:52 GMT-0600 (Central Standard Time)",
+            "topicId": 5
+        },
+        {
+            "id": 8,
+            "userId": 9,
+            "title": "Eating For 33",
+            "content": "Cooking is like love. It should be entered into with abandon or not at all.",
+            "created_at": "Mon Aug 28 2023 11:01:11 GMT-0500 (Central Daylight Time)",
+            "topicId": 3
+        },
+        {
+            "id": 9,
+            "userId": 5,
+            "title": "Why Did It Have To Be Bees!?",
+            "content": "I once ate the entire Declaration of Independence.",
+            "created_at": "Tue Dec 06 2022 05:58:42 GMT-0600 (Central Standard Time)",
+            "topicId": 6
+        },
+        {
+            "id": 10,
+            "userId": 5,
+            "title": "Corporatocracy",
+            "content": "Buzz buzz buzz buzz buzz buzz",
+            "created_at": "Fri Mar 17 2023 18:58:42 GMT-0500 (Central Daylight Time)",
+            "topicId": 2
+        },
+        {
+            "id": 11,
+            "userId": 2,
+            "title": "Where the heck am I?",
+            "content": "Have you ever wondered about the mysteries of the universe?",
+            "created_at": "Wed Mar 01 2023 14:51:16 GMT-0600 (Central Standard Time)",
+            "topicId": 2
+        },
+        {
+            "id": 12,
+            "userId": 1,
+            "title": "Why I Love Coding",
+            "content": "Today, I'd like to share some of my favorite coding tips.",
+            "created_at": "Sun May 21 2023 13:52:49 GMT-0500 (Central Daylight Time)",
+            "topicId": 5
+        },
+        {
+            "id": 13,
+            "userId": 9,
+            "title": "Will You Unseal The Wonka-Bar",
+            "content": "The air is depleting from the chocolate factory.",
+            "created_at": "Mon Sep 18 2023 10:12:00 GMT-0500 (Central Daylight Time)",
+            "topicId": 6
+        },
+        {
+            "id": 14,
+            "userId": 5,
+            "title": "Places I Have Slept",
+            "content": "I can sleep anywhere.",
+            "created_at": "Fri Feb 10 2023 19:35:51 GMT-0600 (Central Standard Time)",
+            "topicId": 5
+        },
+        {
+            "id": 15,
+            "userId": 9,
+            "title": "One Saturday Morning",
+            "content": "Today, I'd like to share some of my favorite coding tips.",
+            "created_at": "Mon Oct 24 2022 11:16:18 GMT-0500 (Central Daylight Time)",
+            "topicId": 3
+        },
+        {
+            "id": 16,
+            "userId": 2,
+            "title": "ChatGPT Screwed Me Over With These Names",
+            "content": "I'll need a better way of fake databasing.",
+            "created_at": "Sun Jan 15 2023 02:34:19 GMT-0600 (Central Standard Time)",
+            "topicId": 6
+        },
+        {
+            "id": 17,
+            "userId": 7,
+            "title": "I Might Take Up Pickleball",
+            "content": "Cooking is like love. It should be entered into with abandon or not at all.",
+            "created_at": "Tue Aug 29 2023 03:50:09 GMT-0500 (Central Daylight Time)",
+            "topicId": 5
+        },
+        {
+            "id": 18,
+            "userId": 9,
+            "title": "The Wonders of Nature",
+            "content": "It was a dark and stormy night...",
+            "created_at": "Sat Nov 19 2022 03:56:43 GMT-0600 (Central Standard Time)",
+            "topicId": 6
+        },
+        {
+            "id": 19,
+            "userId": 6,
+            "title": "The Rise and Fall",
+            "content": "It couldnt even come up with good content.",
+            "created_at": "Mon Aug 07 2023 04:21:32 GMT-0500 (Central Daylight Time)",
+            "topicId": 6
+        },
+        {
+            "id": 20,
+            "userId": 4,
+            "title": "How To Be A Smooth-Brained Baby Again",
+            "content": "Nature is amazing. Let me tell you why.",
+            "created_at": "Sun Nov 27 2022 03:50:23 GMT-0600 (Central Standard Time)",
+            "topicId": 4
+        }
+    ],
+    "likes": [
+        {
+            "id": 1,
+            "postId": 1,
+            "likedUserID": [1,4,7]
+        },
+        {
+            "id": 2,
+            "postId": 2,
+            "likedUserID": [3,4,2]
+        },
+        {
+            "id": 3,
+            "postId": 3,
+            "likedUserID": [1,2,5]
+        },
+        {
+            "id": 4,
+            "postId": 4,
+            "likedUserID": [7,4,3]
+        },
+        {
+            "id": 5,
+            "postId": 5,
+            "likedUserID": [1,8,9]
+        },
+        {
+            "id": 6,
+            "postId": 6,
+            "likedUserID": [9,3,7]
+        },
+        {
+            "id": 7,
+            "postId": 7,
+            "likedUserID": [1,3,8]
+        },
+        {
+            "id": 8,
+            "postId": 8,
+            "likedUserID": [9,2,5]
+        },
+        {
+            "id": 9,
+            "postId": 9,
+            "likedUserID": [7,4,3]
+        },
+        {
+            "id": 10,
+            "postId": 10,
+            "likedUserID": [8,7]
+        },
+        {
+            "id": 11,
+            "postId": 11,
+            "likedUserID": [9,3,6]
+        },
+        {
+            "id": 12,
+            "postId": 12,
+            "likedUserID": [1,4,7]
+        },
+        {
+            "id": 13,
+            "postId": 13,
+            "likedUserID": [2,7]
+        },
+        {
+            "id": 14,
+            "postId": 14,
+            "likedUserID": [10,9,8]
+        },
+        {
+            "id": 15,
+            "postId": 15,
+            "likedUserID": [8,1]
+        },
+        {
+            "id": 16,
+            "postId": 16,
+            "likedUserID": [2,3,9]
+        },
+        {
+            "id": 17,
+            "postId": 17,
+            "likedUserID": [3,4,2]
+        },
+        {
+            "id": 18,
+            "postId": 18,
+            "likedUserID": [1,7]
+        },
+        {
+            "id": 19,
+            "postId": 19,
+            "likedUserID": [10,5,7]
+        },
+        {
+            "id": 20,
+            "postId": 20,
+            "likedUserID": [1]
+        }
+    ]
+}
